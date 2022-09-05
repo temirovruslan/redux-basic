@@ -9,8 +9,24 @@ import {
   LOADER_DISPLAY_ON,
   LOADER_DISPLAY_OFF,
   ERROR_DISPLAY_ON,
-  ERROR_DISPLAY_OFF
+  ERROR_DISPLAY_OFF,
+  UP,
+  DOWN,
+  INC,
+  DEC,
  } from "./types";
+
+export const incMountains = () => {
+  return {
+    type: INC
+  }
+}
+
+export const decMountains = () => {
+  return {
+    type: DEC
+  }
+}
 
 export function incrementLikes() {
   return {
@@ -21,6 +37,17 @@ export function incrementLikes() {
 export function decrementLikes() {
   return {
     type: DECREMENT
+  }
+}
+
+export function incrementStairs() {
+  return {
+    type: UP
+  }
+}
+export function decrementStairs() {
+  return {
+    type: DOWN
   }
 }
 

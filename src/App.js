@@ -4,6 +4,9 @@ import Likes from './Likes';
 import Title from './Title';
 import Comments from './Comments';
 import Spin from './Spin';
+import Button from './Button';
+import Elevator from './Elevator';
+import Mountains from './Mountains';
 
 function App() {
   const error = useSelector(state => state.appReducer.error);
@@ -27,6 +30,8 @@ function App() {
           <Comments />
         </div>
       </div>
+      {/* <Elevator /> */}
+      <Mountains/>
     </div>
   );
 }

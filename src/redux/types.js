@@ -11,3 +11,10 @@ export const LOADER_DISPLAY_OFF = 'LOADER_DISPLAY_OFF';
 
 export const ERROR_DISPLAY_ON = 'ERROR_DISPLAY_ON';
 export const ERROR_DISPLAY_OFF = 'ERROR_DISPLAY_OFF';
+
+export const UP = 'UP';
+export const DOWN = 'DOWN';
+
+export const INC = 'INC';
+export const DEC = 'DEC';
+
